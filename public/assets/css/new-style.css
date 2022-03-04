@@ -1,0 +1,301 @@
+.bg-dark{
+    background-color: #000;
+}
+
+.bg-black-50{
+    background-color: #282B33;
+}
+
+body{
+    overflow: scroll  !important;
+    overflow-x: hidden !important;
+}
+
+.btn-submit{
+    height: 50px !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    background-color: #03BB85 !important;
+    width: 300px !important;
+    color: #fff !important;
+}
+
+.text-red{
+    color: #CC0000;
+}
+
+.hv-100{
+    height: 100vh;
+}
+
+.mt-30{
+    margin-top: 30px !important;
+}
+
+.mt-40{
+    margin-top: 40px !important;
+}
+
+.mt-50{
+    margin-top: 50px !important;
+}
+
+.mt-80{
+    margin-top: 80px !important;
+}
+
+.mb-10{
+    margin-bottom: 10%;
+}
+.mb-20{
+    margin-bottom: 20%;
+}
+
+.mb-30{
+    margin-bottom: 30%;
+}
+
+.mb-40{
+    margin-bottom: 40%;
+}
+
+.mb-50{
+    margin-bottom: 50%;
+}
+
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+
+/* Fonts */
+
+.fz-10{
+    font-size: 10px;
+}
+
+.fz-12{
+    font-size: 12px;
+}
+
+.fz-14{
+    font-size: 14px;
+}
+
+.fz-16{
+    font-size: 16px;
+}
+
+.fz-18{
+    font-size: 18px;
+}
+
+.fz-20{
+    font-size: 20px !important;
+}
+
+.fz-22{
+    font-size: 22px;
+}
+
+.fz-24{
+    font-size: 24px;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.font-light{
+    font-weight: 100;
+}
+
+.btn-springgreen{
+    background-color: #00FF7F !important;
+    color: #fff !important;
+    border: 1px solid #00FF7F !important;
+    margin-right: 25% !important;
+    width: 160px;
+    font-size: 16px !important;
+}
+
+.btn-springgreen:hover{
+    background-color: #3CB371 !important;
+}
+
+/* -- */
+
+.text-gray{
+    color: #bfbfbf
+}
+
+/* Home */
+
+.title-home{
+    font-weight: 800;
+    letter-spacing: -3px;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.select-bg-yellow{
+    height: 40px !important;
+    border: 3px solid #FFC222 !important;
+    font-size: 18px !important;
+    background-color: #F6F2C7 !important;
+}
+
+.select-bg-yellow > option:hover{
+    background-color: #000;
+}
+
+.radio-easy{
+	height: 50px;
+    width: 100%;
+	text-align: center;
+    background: #6CE600;
+	border-radius: 5px;
+    color: #fff;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.radio-easy:hover{
+	background-color: #67B37E;
+}
+
+.radio-normal{
+	height: 50px;
+    width: 100%;
+	text-align: center;
+    background: #FED600;
+	border-radius: 5px;
+    color: #fff;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.radio-normal:hover{
+	background-color: #FFFD8C;
+}
+
+.radio-hard{
+	height: 50px;
+    width: 100%;
+	text-align: center;
+    background-color: #FF0000;
+	border-radius: 5px;
+    color: #fff;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.radio-hard:hover{
+	background-color: #640000;
+}
+
+.radio-easy input, .radio-normal input, .radio-hard input {
+	opacity: 0;
+}
+
+.radio-actived{
+	border: solid 5px #fff;
+}
+
+
+select {
+    -webkit-appearance:none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    width: 100% !important;
+  }
+  
+  select {
+    background: url('https://banzaihonda.com.br/themes/theme-hondabanzai/assets/lp/img/icons/red-arrow-down.svg') 95.5% 50% no-repeat !important;
+  }
+
+
+  input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+
+/*sidebar */
+
+.app-sidebar{
+    width: 280px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+}
+
+/* categorias */
+
+.category-paragraphy{
+    margin: 20px 0;
+    font-size: 22px;
+    color: #11265B;
+}
+
+.box-words{
+    border: 1px solid #11265B;
+    border-radius: 10px;
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.category-span{
+    background-color: #87CEEB;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #fff;
+    margin-right: 5px;
+    line-height: 2.5;
+}
+
+
+.page-item.active .page-link{
+    background-color: #C71585 !important;
+    border: #C71585 !important;
+    color: #fff;
+}
+
+
+.btn-result{
+    width: 200px;
+    padding: 0 10PX;
+}
+
+
+/* site */
+
+
